@@ -1,0 +1,2184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fc3136c0964cf69b4fa6bd2820721679 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fc3136c0964cf69b4fa6bd2820721679" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fc3136c0964cf69b4fa6bd2820721679 = L.map(
+                "map_fc3136c0964cf69b4fa6bd2820721679",
+                {
+                    center: [41.84187506847589, -87.67147068730506],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b0ec0acfc0bc56711bc6abd66437dfca = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fc3136c0964cf69b4fa6bd2820721679);
+        
+    
+            var marker_cluster_437cde81cb01d39dd83c475cd1997414 = L.markerClusterGroup(
+                {}
+            );
+            map_fc3136c0964cf69b4fa6bd2820721679.addLayer(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var marker_edb08b46d4dd2beea04277f145a31d6e = L.marker(
+                [41.88028719205545, -87.62802491326308],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_faca7783a18382a14909081fc31b14e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_edb08b46d4dd2beea04277f145a31d6e.setIcon(icon_faca7783a18382a14909081fc31b14e0);
+        
+    
+        var popup_3687fdf125c3b32670f1411718a83d8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03e44183887ebb9c1946f30573ef7fca = $(`<div id="html_03e44183887ebb9c1946f30573ef7fca" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 32<br>عدد الـ beat: 12<br>عدد الجرائم: 17459</div>`)[0];
+                popup_3687fdf125c3b32670f1411718a83d8c.setContent(html_03e44183887ebb9c1946f30573ef7fca);
+            
+        
+
+        marker_edb08b46d4dd2beea04277f145a31d6e.bindPopup(popup_3687fdf125c3b32670f1411718a83d8c)
+        ;
+
+        
+    
+    
+            var marker_f2ab4331dbaa1464f467b2648f583f82 = L.marker(
+                [41.937803359916124, -87.71307747835458],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_ba55561f2832e02f1b1367b42c8a96bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f2ab4331dbaa1464f467b2648f583f82.setIcon(icon_ba55561f2832e02f1b1367b42c8a96bb);
+        
+    
+        var popup_aef6f97ef10a655a97d8d80642f85376 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4f16086fb33a00265795048598d365a = $(`<div id="html_d4f16086fb33a00265795048598d365a" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 21<br>عدد الـ beat: 6<br>عدد الجرائم: 6653</div>`)[0];
+                popup_aef6f97ef10a655a97d8d80642f85376.setContent(html_d4f16086fb33a00265795048598d365a);
+            
+        
+
+        marker_f2ab4331dbaa1464f467b2648f583f82.bindPopup(popup_aef6f97ef10a655a97d8d80642f85376)
+        ;
+
+        
+    
+    
+            var marker_e2d0b55d7a6e332e32ee8115f7b5babb = L.marker(
+                [41.97217729750638, -87.6883629292915],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_1e7a1ef21d18f5c9ffa42ae180b49c63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e2d0b55d7a6e332e32ee8115f7b5babb.setIcon(icon_1e7a1ef21d18f5c9ffa42ae180b49c63);
+        
+    
+        var popup_3929243f537df05cd88b668f6fe758f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_714db73ec9af86bdad4a996ae7af0d85 = $(`<div id="html_714db73ec9af86bdad4a996ae7af0d85" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 4<br>عدد الـ beat: 7<br>عدد الجرائم: 5101</div>`)[0];
+                popup_3929243f537df05cd88b668f6fe758f7.setContent(html_714db73ec9af86bdad4a996ae7af0d85);
+            
+        
+
+        marker_e2d0b55d7a6e332e32ee8115f7b5babb.bindPopup(popup_3929243f537df05cd88b668f6fe758f7)
+        ;
+
+        
+    
+    
+            var marker_2ae2ecf4e125494bc1084234d938687a = L.marker(
+                [41.67605203407509, -87.63330396260461],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_96fc751b06f381af01d659d10b8fa5f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2ae2ecf4e125494bc1084234d938687a.setIcon(icon_96fc751b06f381af01d659d10b8fa5f9);
+        
+    
+        var popup_d3a2becaeb1b0261e165d730acd83627 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0022473c3cfdc0d3d68d41b1033ecbe = $(`<div id="html_c0022473c3cfdc0d3d68d41b1033ecbe" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 53<br>عدد الـ beat: 4<br>عدد الجرائم: 11733</div>`)[0];
+                popup_d3a2becaeb1b0261e165d730acd83627.setContent(html_c0022473c3cfdc0d3d68d41b1033ecbe);
+            
+        
+
+        marker_2ae2ecf4e125494bc1084234d938687a.bindPopup(popup_d3a2becaeb1b0261e165d730acd83627)
+        ;
+
+        
+    
+    
+            var marker_4c5e067d94c48fb263c9b21e4535ab1f = L.marker(
+                [41.776722582185, -87.66538833097262],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_11455f34bdc928a8b964d38aea4711ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4c5e067d94c48fb263c9b21e4535ab1f.setIcon(icon_11455f34bdc928a8b964d38aea4711ca);
+        
+    
+        var popup_f445e96470f4b9dd670a055072c3e707 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56a437a1e43caf7d5b366f74347c2825 = $(`<div id="html_56a437a1e43caf7d5b366f74347c2825" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 67<br>عدد الـ beat: 12<br>عدد الجرائم: 20297</div>`)[0];
+                popup_f445e96470f4b9dd670a055072c3e707.setContent(html_56a437a1e43caf7d5b366f74347c2825);
+            
+        
+
+        marker_4c5e067d94c48fb263c9b21e4535ab1f.bindPopup(popup_f445e96470f4b9dd670a055072c3e707)
+        ;
+
+        
+    
+    
+            var marker_0481f61b8c19d51c9819cf5e5e9b9f4f = L.marker(
+                [41.74207964473123, -87.55682792256155],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_d7161d3da7eb7687ecb8a5f57d490229 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0481f61b8c19d51c9819cf5e5e9b9f4f.setIcon(icon_d7161d3da7eb7687ecb8a5f57d490229);
+        
+    
+        var popup_343d00063c8e0e39c86d914cd198a6f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cc25b33a9de04d36535799f529c656b = $(`<div id="html_8cc25b33a9de04d36535799f529c656b" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 46<br>عدد الـ beat: 7<br>عدد الجرائم: 13294</div>`)[0];
+                popup_343d00063c8e0e39c86d914cd198a6f0.setContent(html_8cc25b33a9de04d36535799f529c656b);
+            
+        
+
+        marker_0481f61b8c19d51c9819cf5e5e9b9f4f.bindPopup(popup_343d00063c8e0e39c86d914cd198a6f0)
+        ;
+
+        
+    
+    
+            var marker_e8716fc77e0369ba4c692979425a0dba = L.marker(
+                [41.76298795516712, -87.61776674075253],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_dfcbb5d681d9d5e6b81d510a0cf7aa62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e8716fc77e0369ba4c692979425a0dba.setIcon(icon_dfcbb5d681d9d5e6b81d510a0cf7aa62);
+        
+    
+        var popup_b6a37db3ae369089e7cebad869a6f3da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_651c56a6f84eb61a93164007e0f51c6d = $(`<div id="html_651c56a6f84eb61a93164007e0f51c6d" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 69<br>عدد الـ beat: 13<br>عدد الجرائم: 17760</div>`)[0];
+                popup_b6a37db3ae369089e7cebad869a6f3da.setContent(html_651c56a6f84eb61a93164007e0f51c6d);
+            
+        
+
+        marker_e8716fc77e0369ba4c692979425a0dba.bindPopup(popup_b6a37db3ae369089e7cebad869a6f3da)
+        ;
+
+        
+    
+    
+            var marker_dc07eeb0fc343c4836c9b7a2f200e6b3 = L.marker(
+                [41.80389892675568, -87.66167472726922],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_4fd22e4a6c145ad00f79abac51d93c96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dc07eeb0fc343c4836c9b7a2f200e6b3.setIcon(icon_4fd22e4a6c145ad00f79abac51d93c96);
+        
+    
+        var popup_1d246b016958351f2318d90adc3b8282 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23a6e70ecff22f0cb85bf4f204b3b806 = $(`<div id="html_23a6e70ecff22f0cb85bf4f204b3b806" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 61<br>عدد الـ beat: 11<br>عدد الجرائم: 14227</div>`)[0];
+                popup_1d246b016958351f2318d90adc3b8282.setContent(html_23a6e70ecff22f0cb85bf4f204b3b806);
+            
+        
+
+        marker_dc07eeb0fc343c4836c9b7a2f200e6b3.bindPopup(popup_1d246b016958351f2318d90adc3b8282)
+        ;
+
+        
+    
+    
+            var marker_3a55342a0ee3f25a01732ed44e33dc7a = L.marker(
+                [41.89139040500809, -87.75849383171541],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_fd9c2aeef7fdb9fdcc4c24abdf60f8df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3a55342a0ee3f25a01732ed44e33dc7a.setIcon(icon_fd9c2aeef7fdb9fdcc4c24abdf60f8df);
+        
+    
+        var popup_054d2c1c72fbfae413b786672a0f292c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1016544e6c5f93f5b798c550fd189405 = $(`<div id="html_1016544e6c5f93f5b798c550fd189405" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 25<br>عدد الـ beat: 19<br>عدد الجرائم: 44489</div>`)[0];
+                popup_054d2c1c72fbfae413b786672a0f292c.setContent(html_1016544e6c5f93f5b798c550fd189405);
+            
+        
+
+        marker_3a55342a0ee3f25a01732ed44e33dc7a.bindPopup(popup_054d2c1c72fbfae413b786672a0f292c)
+        ;
+
+        
+    
+    
+            var marker_a6ba46d6a8ad30dbcd336d723e19d932 = L.marker(
+                [41.97589689071691, -87.76907375322178],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_73ccf09322aa3df1a3886d9429f43a7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6ba46d6a8ad30dbcd336d723e19d932.setIcon(icon_73ccf09322aa3df1a3886d9429f43a7c);
+        
+    
+        var popup_3f62ac9ccfdf20ebcb1fe499cf701fe6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f492383ac4757952ef6add273d36034 = $(`<div id="html_7f492383ac4757952ef6add273d36034" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 11<br>عدد الـ beat: 4<br>عدد الجرائم: 2773</div>`)[0];
+                popup_3f62ac9ccfdf20ebcb1fe499cf701fe6.setContent(html_7f492383ac4757952ef6add273d36034);
+            
+        
+
+        marker_a6ba46d6a8ad30dbcd336d723e19d932.bindPopup(popup_3f62ac9ccfdf20ebcb1fe499cf701fe6)
+        ;
+
+        
+    
+    
+            var marker_42bfadb884a0c96397fdf7ff7159fc28 = L.marker(
+                [41.74596608757541, -87.70941500175893],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_67c66de5e394a211d94a058caf517803 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_42bfadb884a0c96397fdf7ff7159fc28.setIcon(icon_67c66de5e394a211d94a058caf517803);
+        
+    
+        var popup_d00b96ed79271a7db172b615394fd6ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78fb172060a86d78061e5e31d9ab431b = $(`<div id="html_78fb172060a86d78061e5e31d9ab431b" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 70<br>عدد الـ beat: 5<br>عدد الجرائم: 6359</div>`)[0];
+                popup_d00b96ed79271a7db172b615394fd6ef.setContent(html_78fb172060a86d78061e5e31d9ab431b);
+            
+        
+
+        marker_42bfadb884a0c96397fdf7ff7159fc28.bindPopup(popup_d00b96ed79271a7db172b615394fd6ef)
+        ;
+
+        
+    
+    
+            var marker_aa5efef9bcae6d022dc854739a51d697 = L.marker(
+                [41.92267100418475, -87.65033253401371],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_d4c4198ad5ae2dd6fe6ebfc461e8a962 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aa5efef9bcae6d022dc854739a51d697.setIcon(icon_d4c4198ad5ae2dd6fe6ebfc461e8a962);
+        
+    
+        var popup_5123ee1c080798dc28ca9b19e80fa456 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_036e1afe8e730f0284fad99066460a43 = $(`<div id="html_036e1afe8e730f0284fad99066460a43" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 7<br>عدد الـ beat: 10<br>عدد الجرائم: 10863</div>`)[0];
+                popup_5123ee1c080798dc28ca9b19e80fa456.setContent(html_036e1afe8e730f0284fad99066460a43);
+            
+        
+
+        marker_aa5efef9bcae6d022dc854739a51d697.bindPopup(popup_5123ee1c080798dc28ca9b19e80fa456)
+        ;
+
+        
+    
+    
+            var marker_0a9654ef0a1e257901c1ea0b48285c44 = L.marker(
+                [41.81613831058964, -87.69659135192022],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_3a14d7aaa8231963532b6ae5582c77c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0a9654ef0a1e257901c1ea0b48285c44.setIcon(icon_3a14d7aaa8231963532b6ae5582c77c3);
+        
+    
+        var popup_b94397b3cc82b9e3120408c08e2d86a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc0638270c6ca6d31e579145b406583a = $(`<div id="html_bc0638270c6ca6d31e579145b406583a" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 58<br>عدد الـ beat: 7<br>عدد الجرائم: 6894</div>`)[0];
+                popup_b94397b3cc82b9e3120408c08e2d86a4.setContent(html_bc0638270c6ca6d31e579145b406583a);
+            
+        
+
+        marker_0a9654ef0a1e257901c1ea0b48285c44.bindPopup(popup_b94397b3cc82b9e3120408c08e2d86a4)
+        ;
+
+        
+    
+    
+            var marker_0f802b253fb0e9b51eda972ba62026fe = L.marker(
+                [41.878411437365045, -87.7292285033726],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_e00dd5ab630152579054fa0f3676e582 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f802b253fb0e9b51eda972ba62026fe.setIcon(icon_e00dd5ab630152579054fa0f3676e582);
+        
+    
+        var popup_440ef49407ee3c72e269344ed7fef653 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12529634e06f267302d0cb4b57f68b4f = $(`<div id="html_12529634e06f267302d0cb4b57f68b4f" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 26<br>عدد الـ beat: 7<br>عدد الجرائم: 13253</div>`)[0];
+                popup_440ef49407ee3c72e269344ed7fef653.setContent(html_12529634e06f267302d0cb4b57f68b4f);
+            
+        
+
+        marker_0f802b253fb0e9b51eda972ba62026fe.bindPopup(popup_440ef49407ee3c72e269344ed7fef653)
+        ;
+
+        
+    
+    
+            var marker_0907d9f0fed813dcd0e7fd4c1c10a03e = L.marker(
+                [41.927140863662984, -87.76387519641099],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_3b9d78946fc9afbe3e55c9b4ca3fa8f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0907d9f0fed813dcd0e7fd4c1c10a03e.setIcon(icon_3b9d78946fc9afbe3e55c9b4ca3fa8f7);
+        
+    
+        var popup_16d6a19379a53fd7f91751c89bc8bf03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55cf7abdab8f1ac3ba535be31f8900d6 = $(`<div id="html_55cf7abdab8f1ac3ba535be31f8900d6" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 19<br>عدد الـ beat: 7<br>عدد الجرائم: 13044</div>`)[0];
+                popup_16d6a19379a53fd7f91751c89bc8bf03.setContent(html_55cf7abdab8f1ac3ba535be31f8900d6);
+            
+        
+
+        marker_0907d9f0fed813dcd0e7fd4c1c10a03e.bindPopup(popup_16d6a19379a53fd7f91751c89bc8bf03)
+        ;
+
+        
+    
+    
+            var marker_11d2a236c23228edbd6d54ec43cff39c = L.marker(
+                [41.98700738965192, -87.66184434007069],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_7d64e14ce7b15c03fc13c59a7f278069 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_11d2a236c23228edbd6d54ec43cff39c.setIcon(icon_7d64e14ce7b15c03fc13c59a7f278069);
+        
+    
+        var popup_424c7e10108c71e17e70afa245d950cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_841e6944b458b92aa7f5ecfc16360dd7 = $(`<div id="html_841e6944b458b92aa7f5ecfc16360dd7" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 77<br>عدد الـ beat: 5<br>عدد الجرائم: 7030</div>`)[0];
+                popup_424c7e10108c71e17e70afa245d950cb.setContent(html_841e6944b458b92aa7f5ecfc16360dd7);
+            
+        
+
+        marker_11d2a236c23228edbd6d54ec43cff39c.bindPopup(popup_424c7e10108c71e17e70afa245d950cb)
+        ;
+
+        
+    
+    
+            var marker_edac5ed73c635df892c358d22206daf7 = L.marker(
+                [41.845327580412054, -87.71117867233013],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_1244aa6600d7e0a7756aeed1ace7171b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_edac5ed73c635df892c358d22206daf7.setIcon(icon_1244aa6600d7e0a7756aeed1ace7171b);
+        
+    
+        var popup_40178b64c49447919385e11a7aa16b89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_262599c3efb7ea3bf5c4ef04faa03828 = $(`<div id="html_262599c3efb7ea3bf5c4ef04faa03828" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 30<br>عدد الـ beat: 12<br>عدد الجرائم: 12132</div>`)[0];
+                popup_40178b64c49447919385e11a7aa16b89.setContent(html_262599c3efb7ea3bf5c4ef04faa03828);
+            
+        
+
+        marker_edac5ed73c635df892c358d22206daf7.bindPopup(popup_40178b64c49447919385e11a7aa16b89)
+        ;
+
+        
+    
+    
+            var marker_2e8c29320bf85066c63b0d7372345b34 = L.marker(
+                [41.746104205583926, -87.65559168421994],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_1480cc12c723ff8a15643fa372526619 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2e8c29320bf85066c63b0d7372345b34.setIcon(icon_1480cc12c723ff8a15643fa372526619);
+        
+    
+        var popup_f5170146e27d212260672ea20605232b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75e74da0559f74ea1cb2da1785a8fb69 = $(`<div id="html_75e74da0559f74ea1cb2da1785a8fb69" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 71<br>عدد الـ beat: 9<br>عدد الجرائم: 20155</div>`)[0];
+                popup_f5170146e27d212260672ea20605232b.setContent(html_75e74da0559f74ea1cb2da1785a8fb69);
+            
+        
+
+        marker_2e8c29320bf85066c63b0d7372345b34.bindPopup(popup_f5170146e27d212260672ea20605232b)
+        ;
+
+        
+    
+    
+            var marker_d282ace8af7f47f7300cfdb41434ec9a = L.marker(
+                [41.79329696791697, -87.72445568394575],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_0692149e34dd31ebf0347fd233d1c80a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d282ace8af7f47f7300cfdb41434ec9a.setIcon(icon_0692149e34dd31ebf0347fd233d1c80a);
+        
+    
+        var popup_ff8955587dc861a3fe5b0ae3c29e8257 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dd6cf27888ea8a5c8a43df5b78d66ac = $(`<div id="html_5dd6cf27888ea8a5c8a43df5b78d66ac" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 62<br>عدد الـ beat: 4<br>عدد الجرائم: 2746</div>`)[0];
+                popup_ff8955587dc861a3fe5b0ae3c29e8257.setContent(html_5dd6cf27888ea8a5c8a43df5b78d66ac);
+            
+        
+
+        marker_d282ace8af7f47f7300cfdb41434ec9a.bindPopup(popup_ff8955587dc861a3fe5b0ae3c29e8257)
+        ;
+
+        
+    
+    
+            var marker_7d96720d0beccd08b80c17289db05550 = L.marker(
+                [41.97627333710609, -87.88399311962095],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_bbc99b7575f1231e3086e0a121b13e31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7d96720d0beccd08b80c17289db05550.setIcon(icon_bbc99b7575f1231e3086e0a121b13e31);
+        
+    
+        var popup_7cb32dd09c66c01872d17f85c52c5509 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50da4ccceda8927e72a2dc3524563bc3 = $(`<div id="html_50da4ccceda8927e72a2dc3524563bc3" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 76<br>عدد الـ beat: 8<br>عدد الجرائم: 3968</div>`)[0];
+                popup_7cb32dd09c66c01872d17f85c52c5509.setContent(html_50da4ccceda8927e72a2dc3524563bc3);
+            
+        
+
+        marker_7d96720d0beccd08b80c17289db05550.bindPopup(popup_7cb32dd09c66c01872d17f85c52c5509)
+        ;
+
+        
+    
+    
+            var marker_0d7eb038ee548871dd6013061f35e5aa = L.marker(
+                [41.77460856092409, -87.69236533816677],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_67b35f416d8eb5b7bc3c15c0ac7789bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0d7eb038ee548871dd6013061f35e5aa.setIcon(icon_67b35f416d8eb5b7bc3c15c0ac7789bc);
+        
+    
+        var popup_4d24d5fa91f4f509a2bcc171ea98cfb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6337961f82d32b342258ec0dd3f51c80 = $(`<div id="html_6337961f82d32b342258ec0dd3f51c80" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 66<br>عدد الـ beat: 7<br>عدد الجرائم: 17217</div>`)[0];
+                popup_4d24d5fa91f4f509a2bcc171ea98cfb6.setContent(html_6337961f82d32b342258ec0dd3f51c80);
+            
+        
+
+        marker_0d7eb038ee548871dd6013061f35e5aa.bindPopup(popup_4d24d5fa91f4f509a2bcc171ea98cfb6)
+        ;
+
+        
+    
+    
+            var marker_4127be59fd4eba56cbc42da16fdbfce4 = L.marker(
+                [41.94344636434247, -87.65383818409792],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_c8030a328607df36c685659235da543d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4127be59fd4eba56cbc42da16fdbfce4.setIcon(icon_c8030a328607df36c685659235da543d);
+        
+    
+        var popup_57595eab824b15bed3aed7ca691f8b54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86f11d568cb6b54271e21020df3aa909 = $(`<div id="html_86f11d568cb6b54271e21020df3aa909" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 6<br>عدد الـ beat: 14<br>عدد الجرائم: 14340</div>`)[0];
+                popup_57595eab824b15bed3aed7ca691f8b54.setContent(html_86f11d568cb6b54271e21020df3aa909);
+            
+        
+
+        marker_4127be59fd4eba56cbc42da16fdbfce4.bindPopup(popup_57595eab824b15bed3aed7ca691f8b54)
+        ;
+
+        
+    
+    
+            var marker_955cae73296444f455fca8f108b02fc3 = L.marker(
+                [41.92222679528497, -87.70143066837218],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_1fb1e208904d5d11cf24ca7e2bbcec98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_955cae73296444f455fca8f108b02fc3.setIcon(icon_1fb1e208904d5d11cf24ca7e2bbcec98);
+        
+    
+        var popup_927bf9d158c8bece2c074300561544db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcc733111316e3ab48d6c4fa615bf4c9 = $(`<div id="html_bcc733111316e3ab48d6c4fa615bf4c9" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 22<br>عدد الـ beat: 13<br>عدد الجرائم: 14584</div>`)[0];
+                popup_927bf9d158c8bece2c074300561544db.setContent(html_bcc733111316e3ab48d6c4fa615bf4c9);
+            
+        
+
+        marker_955cae73296444f455fca8f108b02fc3.bindPopup(popup_927bf9d158c8bece2c074300561544db)
+        ;
+
+        
+    
+    
+            var marker_29e546d2242dbd6b2b5fbfea2445e3b5 = L.marker(
+                [41.776257467346994, -87.64402865082545],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_9eff56468d2d801ddf5d05b85b54c060 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29e546d2242dbd6b2b5fbfea2445e3b5.setIcon(icon_9eff56468d2d801ddf5d05b85b54c060);
+        
+    
+        var popup_b33387ea6cfec9bc870933b185ac3801 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1a96d40131f4df2c00583c2d1ee52e8 = $(`<div id="html_b1a96d40131f4df2c00583c2d1ee52e8" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 68<br>عدد الـ beat: 16<br>عدد الجرائم: 18505</div>`)[0];
+                popup_b33387ea6cfec9bc870933b185ac3801.setContent(html_b1a96d40131f4df2c00583c2d1ee52e8);
+            
+        
+
+        marker_29e546d2242dbd6b2b5fbfea2445e3b5.bindPopup(popup_b33387ea6cfec9bc870933b185ac3801)
+        ;
+
+        
+    
+    
+            var marker_8c0e394ebea1cd9565619dca077e0856 = L.marker(
+                [41.89821426186729, -87.6318099692431],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_008f8ca500f8f4290208398f4d29f7e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8c0e394ebea1cd9565619dca077e0856.setIcon(icon_008f8ca500f8f4290208398f4d29f7e9);
+        
+    
+        var popup_091b1c4b6ec686f374f5b82eb6c6ccdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82ffe7dce800b34f711047e610c53588 = $(`<div id="html_82ffe7dce800b34f711047e610c53588" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 8<br>عدد الـ beat: 8<br>عدد الجرائم: 24986</div>`)[0];
+                popup_091b1c4b6ec686f374f5b82eb6c6ccdb.setContent(html_82ffe7dce800b34f711047e610c53588);
+            
+        
+
+        marker_8c0e394ebea1cd9565619dca077e0856.bindPopup(popup_091b1c4b6ec686f374f5b82eb6c6ccdb)
+        ;
+
+        
+    
+    
+            var marker_ef5e14d8227bef7cbd4c2c4db9bde09d = L.marker(
+                [41.86114796010273, -87.71657115967987],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_f2e632a0ccfc8d2d8d15def90fe256cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ef5e14d8227bef7cbd4c2c4db9bde09d.setIcon(icon_f2e632a0ccfc8d2d8d15def90fe256cc);
+        
+    
+        var popup_30f4a1efe82cd9f196a13ed11be3e809 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_899d10138dfa4059e2a686d3f93e3bf8 = $(`<div id="html_899d10138dfa4059e2a686d3f93e3bf8" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 29<br>عدد الـ beat: 13<br>عدد الجرائم: 20570</div>`)[0];
+                popup_30f4a1efe82cd9f196a13ed11be3e809.setContent(html_899d10138dfa4059e2a686d3f93e3bf8);
+            
+        
+
+        marker_ef5e14d8227bef7cbd4c2c4db9bde09d.bindPopup(popup_30f4a1efe82cd9f196a13ed11be3e809)
+        ;
+
+        
+    
+    
+            var marker_8bbecf3c3b7e47c2a883a6644bd4afdc = L.marker(
+                [41.77862001869185, -87.604092504814],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_1046ced77187f1caf4c928a23b01cefd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8bbecf3c3b7e47c2a883a6644bd4afdc.setIcon(icon_1046ced77187f1caf4c928a23b01cefd);
+        
+    
+        var popup_c42509953a69fcbce33be38fb0de8fec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15fad6219e6fcf42004637287f377dc3 = $(`<div id="html_15fad6219e6fcf42004637287f377dc3" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 42<br>عدد الـ beat: 7<br>عدد الجرائم: 11501</div>`)[0];
+                popup_c42509953a69fcbce33be38fb0de8fec.setContent(html_15fad6219e6fcf42004637287f377dc3);
+            
+        
+
+        marker_8bbecf3c3b7e47c2a883a6644bd4afdc.bindPopup(popup_c42509953a69fcbce33be38fb0de8fec)
+        ;
+
+        
+    
+    
+            var marker_7e6618c676ae5ae52382805ad11d5fb3 = L.marker(
+                [41.791412342566886, -87.62006399459857],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_23979d1ca6a6bd779c89a32855173aaa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7e6618c676ae5ae52382805ad11d5fb3.setIcon(icon_23979d1ca6a6bd779c89a32855173aaa);
+        
+    
+        var popup_e83e511a62e2acd4f9c83f795b52f0e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8733724ba6a12e4b19ad5bbedf9b60e4 = $(`<div id="html_8733724ba6a12e4b19ad5bbedf9b60e4" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 40<br>عدد الـ beat: 6<br>عدد الجرائم: 7476</div>`)[0];
+                popup_e83e511a62e2acd4f9c83f795b52f0e2.setContent(html_8733724ba6a12e4b19ad5bbedf9b60e4);
+            
+        
+
+        marker_7e6618c676ae5ae52382805ad11d5fb3.bindPopup(popup_e83e511a62e2acd4f9c83f795b52f0e2)
+        ;
+
+        
+    
+    
+            var marker_03c1c1f6840e4ef41d356e15b77426ee = L.marker(
+                [41.83646308770809, -87.64797723155185],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_13cc05adbc44228c52dd664067cb1afa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_03c1c1f6840e4ef41d356e15b77426ee.setIcon(icon_13cc05adbc44228c52dd664067cb1afa);
+        
+    
+        var popup_7c8992155513181f08c4ef4c7b31be47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8665cc0657cb40cda1fb63bf31f37ee = $(`<div id="html_c8665cc0657cb40cda1fb63bf31f37ee" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 60<br>عدد الـ beat: 9<br>عدد الجرائم: 4474</div>`)[0];
+                popup_7c8992155513181f08c4ef4c7b31be47.setContent(html_c8665cc0657cb40cda1fb63bf31f37ee);
+            
+        
+
+        marker_03c1c1f6840e4ef41d356e15b77426ee.bindPopup(popup_7c8992155513181f08c4ef4c7b31be47)
+        ;
+
+        
+    
+    
+            var marker_963f9bcec0e798d6e8094527dc2c3aaf = L.marker(
+                [41.98497272500064, -87.80065594992728],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_514b72fc817ff663ab57e4ba275fcdd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_963f9bcec0e798d6e8094527dc2c3aaf.setIcon(icon_514b72fc817ff663ab57e4ba275fcdd9);
+        
+    
+        var popup_85e4693b8fd5d9b97ef794266cdc09a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_802e008812243050b989f4d3ca2e918e = $(`<div id="html_802e008812243050b989f4d3ca2e918e" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 10<br>عدد الـ beat: 5<br>عدد الجرائم: 3108</div>`)[0];
+                popup_85e4693b8fd5d9b97ef794266cdc09a7.setContent(html_802e008812243050b989f4d3ca2e918e);
+            
+        
+
+        marker_963f9bcec0e798d6e8094527dc2c3aaf.bindPopup(popup_85e4693b8fd5d9b97ef794266cdc09a7)
+        ;
+
+        
+    
+    
+            var marker_2038267c7604d7b5c02e459d631cbd1a = L.marker(
+                [42.01152699560768, -87.67037982084643],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_1a9a6713a1362a7b6466725c2cfe44a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2038267c7604d7b5c02e459d631cbd1a.setIcon(icon_1a9a6713a1362a7b6466725c2cfe44a9);
+        
+    
+        var popup_5e2e0f30e9f2c1f7afbb2fc3684161be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92f1cf9fdd7b1be6cff2135caeeb585c = $(`<div id="html_92f1cf9fdd7b1be6cff2135caeeb585c" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 1<br>عدد الـ beat: 5<br>عدد الجرائم: 10777</div>`)[0];
+                popup_5e2e0f30e9f2c1f7afbb2fc3684161be.setContent(html_92f1cf9fdd7b1be6cff2135caeeb585c);
+            
+        
+
+        marker_2038267c7604d7b5c02e459d631cbd1a.bindPopup(popup_5e2e0f30e9f2c1f7afbb2fc3684161be)
+        ;
+
+        
+    
+    
+            var marker_c51359d0172c85005654e224930ab072 = L.marker(
+                [41.834002508242385, -87.62022803495351],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_60095aad601d03d49d58ec83aab555dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c51359d0172c85005654e224930ab072.setIcon(icon_60095aad601d03d49d58ec83aab555dd);
+        
+    
+        var popup_9dbea1499e4cd1f17d8821ef23836755 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfc1fc3a932cfe6bde2f3d2142c3c056 = $(`<div id="html_cfc1fc3a932cfe6bde2f3d2142c3c056" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 35<br>عدد الـ beat: 8<br>عدد الجرائم: 7806</div>`)[0];
+                popup_9dbea1499e4cd1f17d8821ef23836755.setContent(html_cfc1fc3a932cfe6bde2f3d2142c3c056);
+            
+        
+
+        marker_c51359d0172c85005654e224930ab072.bindPopup(popup_9dbea1499e4cd1f17d8821ef23836755)
+        ;
+
+        
+    
+    
+            var marker_27c24e0ebc54cf29a7f4ac759e4fb62a = L.marker(
+                [41.99010048338443, -87.7537963616428],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_956f75bf6afc11f850f9c30e0f6e5d1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_27c24e0ebc54cf29a7f4ac759e4fb62a.setIcon(icon_956f75bf6afc11f850f9c30e0f6e5d1d);
+        
+    
+        var popup_c5d04cbbcbeb382823e3d5c07aced45f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04d15e0aeeb5e5f0bf0d75162f10b56f = $(`<div id="html_04d15e0aeeb5e5f0bf0d75162f10b56f" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 12<br>عدد الـ beat: 3<br>عدد الجرائم: 1285</div>`)[0];
+                popup_c5d04cbbcbeb382823e3d5c07aced45f.setContent(html_04d15e0aeeb5e5f0bf0d75162f10b56f);
+            
+        
+
+        marker_27c24e0ebc54cf29a7f4ac759e4fb62a.bindPopup(popup_c5d04cbbcbeb382823e3d5c07aced45f)
+        ;
+
+        
+    
+    
+            var marker_8a07f8703997b08b7185fba7b5c5e5d0 = L.marker(
+                [41.9521275306971, -87.7606466206621],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_af57b791414cfeda183653a02e0c34ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8a07f8703997b08b7185fba7b5c5e5d0.setIcon(icon_af57b791414cfeda183653a02e0c34ff);
+        
+    
+        var popup_8e4ec86a6b123762919a33f8134f1296 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acf98e19c566249258ea5c37f3e971b6 = $(`<div id="html_acf98e19c566249258ea5c37f3e971b6" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 15<br>عدد الـ beat: 7<br>عدد الجرائم: 8973</div>`)[0];
+                popup_8e4ec86a6b123762919a33f8134f1296.setContent(html_acf98e19c566249258ea5c37f3e971b6);
+            
+        
+
+        marker_8a07f8703997b08b7185fba7b5c5e5d0.bindPopup(popup_8e4ec86a6b123762919a33f8134f1296)
+        ;
+
+        
+    
+    
+            var marker_825e822608b744c5541f805b19cea80e = L.marker(
+                [41.90054305299799, -87.7202027791345],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_8185ca4baeb5d43ef4eda36ba8afbf36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_825e822608b744c5541f805b19cea80e.setIcon(icon_8185ca4baeb5d43ef4eda36ba8afbf36);
+        
+    
+        var popup_af7d6d8ec6dbc55262ee215ad9a9b3ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eae7501a694d6ddaa6ea5d56c17c9f01 = $(`<div id="html_eae7501a694d6ddaa6ea5d56c17c9f01" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 23<br>عدد الـ beat: 16<br>عدد الجرائم: 22378</div>`)[0];
+                popup_af7d6d8ec6dbc55262ee215ad9a9b3ed.setContent(html_eae7501a694d6ddaa6ea5d56c17c9f01);
+            
+        
+
+        marker_825e822608b744c5541f805b19cea80e.bindPopup(popup_af7d6d8ec6dbc55262ee215ad9a9b3ed)
+        ;
+
+        
+    
+    
+            var marker_2ffeaa5425b6a4312f7c3ebc44e15296 = L.marker(
+                [41.742896659506194, -87.61298214799498],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_3b441be4418cc2e287af0682f76025a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2ffeaa5425b6a4312f7c3ebc44e15296.setIcon(icon_3b441be4418cc2e287af0682f76025a8);
+        
+    
+        var popup_46324f16a846842ff6397e8262d0fd65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af6812d5bd1b30cc138459b21deb18cb = $(`<div id="html_af6812d5bd1b30cc138459b21deb18cb" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 44<br>عدد الـ beat: 10<br>عدد الجرائم: 15737</div>`)[0];
+                popup_46324f16a846842ff6397e8262d0fd65.setContent(html_af6812d5bd1b30cc138459b21deb18cb);
+            
+        
+
+        marker_2ffeaa5425b6a4312f7c3ebc44e15296.bindPopup(popup_46324f16a846842ff6397e8262d0fd65)
+        ;
+
+        
+    
+    
+            var marker_10bebb3b72b77601052509a55f13f1e7 = L.marker(
+                [41.94681819805364, -87.68276050955069],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_bd3810523e55ef15a6c454960727de27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_10bebb3b72b77601052509a55f13f1e7.setIcon(icon_bd3810523e55ef15a6c454960727de27);
+        
+    
+        var popup_39709468d12b69d18e70b56c7dac9fdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52bbf3d4a6d6218c4c43c0fac2b71bec = $(`<div id="html_52bbf3d4a6d6218c4c43c0fac2b71bec" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 5<br>عدد الـ beat: 9<br>عدد الجرائم: 4064</div>`)[0];
+                popup_39709468d12b69d18e70b56c7dac9fdd.setContent(html_52bbf3d4a6d6218c4c43c0fac2b71bec);
+            
+        
+
+        marker_10bebb3b72b77601052509a55f13f1e7.bindPopup(popup_39709468d12b69d18e70b56c7dac9fdd)
+        ;
+
+        
+    
+    
+            var marker_58795dc34ff73c47e69b801184bf00cd = L.marker(
+                [41.761910597075456, -87.57336005156702],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_91cb8cb1f652506c213e5e586d3359f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_58795dc34ff73c47e69b801184bf00cd.setIcon(icon_91cb8cb1f652506c213e5e586d3359f0);
+        
+    
+        var popup_12efd80e52f8df2f74d476454cf4b1e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4fb1de9ba9e0c8d049d56b0585d51a6 = $(`<div id="html_d4fb1de9ba9e0c8d049d56b0585d51a6" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 43<br>عدد الـ beat: 10<br>عدد الجرائم: 23140</div>`)[0];
+                popup_12efd80e52f8df2f74d476454cf4b1e8.setContent(html_d4fb1de9ba9e0c8d049d56b0585d51a6);
+            
+        
+
+        marker_58795dc34ff73c47e69b801184bf00cd.bindPopup(popup_12efd80e52f8df2f74d476454cf4b1e8)
+        ;
+
+        
+    
+    
+            var marker_61b141ead65e1cfa6322561ef3192b3c = L.marker(
+                [41.87817386104267, -87.70514710260204],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_c659b088b353044335fa1cea46b02f81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_61b141ead65e1cfa6322561ef3192b3c.setIcon(icon_c659b088b353044335fa1cea46b02f81);
+        
+    
+        var popup_0ac50c26d14b03ff0cfa6c8626dd07b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_264e3992733e7be77cd22f5d175c3c6c = $(`<div id="html_264e3992733e7be77cd22f5d175c3c6c" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 27<br>عدد الـ beat: 9<br>عدد الجرائم: 13172</div>`)[0];
+                popup_0ac50c26d14b03ff0cfa6c8626dd07b1.setContent(html_264e3992733e7be77cd22f5d175c3c6c);
+            
+        
+
+        marker_61b141ead65e1cfa6322561ef3192b3c.bindPopup(popup_0ac50c26d14b03ff0cfa6c8626dd07b1)
+        ;
+
+        
+    
+    
+            var marker_01052333a274747022510925ecfd68b7 = L.marker(
+                [41.90240872966691, -87.67765193839162],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_772d78b369e2dc215dd7d31b0e2c2fc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_01052333a274747022510925ecfd68b7.setIcon(icon_772d78b369e2dc215dd7d31b0e2c2fc9);
+        
+    
+        var popup_6c1c62d89fa66bd3cd8b821d5d713c07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17eb24bff5f593e7d2b7939f9a4134e1 = $(`<div id="html_17eb24bff5f593e7d2b7939f9a4134e1" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 24<br>عدد الـ beat: 20<br>عدد الجرائم: 20640</div>`)[0];
+                popup_6c1c62d89fa66bd3cd8b821d5d713c07.setContent(html_17eb24bff5f593e7d2b7939f9a4134e1);
+            
+        
+
+        marker_01052333a274747022510925ecfd68b7.bindPopup(popup_6c1c62d89fa66bd3cd8b821d5d713c07)
+        ;
+
+        
+    
+    
+            var marker_213e3bc2f6adb1170ab58e1311e7cff6 = L.marker(
+                [41.85688664227709, -87.62435428562979],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_dbfd34233d3d62f13e7475af7c8f08bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_213e3bc2f6adb1170ab58e1311e7cff6.setIcon(icon_dbfd34233d3d62f13e7475af7c8f08bf);
+        
+    
+        var popup_0c112ae95463066cfd1c022eaa8de06a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f62fcf4395bff559aedd445bf70bdfe8 = $(`<div id="html_f62fcf4395bff559aedd445bf70bdfe8" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 33<br>عدد الـ beat: 9<br>عدد الجرائم: 5435</div>`)[0];
+                popup_0c112ae95463066cfd1c022eaa8de06a.setContent(html_f62fcf4395bff559aedd445bf70bdfe8);
+            
+        
+
+        marker_213e3bc2f6adb1170ab58e1311e7cff6.bindPopup(popup_0c112ae95463066cfd1c022eaa8de06a)
+        ;
+
+        
+    
+    
+            var marker_0e2bde2d0817e99cbb2f3ee44d0db616 = L.marker(
+                [41.87589280174355, -87.66361462497127],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_5166b85842a904d33c302716501daed7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0e2bde2d0817e99cbb2f3ee44d0db616.setIcon(icon_5166b85842a904d33c302716501daed7);
+        
+    
+        var popup_caca93d4b0683fef2af970142f201a40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ef229fdf6789424f5e588f1bdc4794d = $(`<div id="html_4ef229fdf6789424f5e588f1bdc4794d" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 28<br>عدد الـ beat: 23<br>عدد الجرائم: 21657</div>`)[0];
+                popup_caca93d4b0683fef2af970142f201a40.setContent(html_4ef229fdf6789424f5e588f1bdc4794d);
+            
+        
+
+        marker_0e2bde2d0817e99cbb2f3ee44d0db616.bindPopup(popup_caca93d4b0683fef2af970142f201a40)
+        ;
+
+        
+    
+    
+            var marker_ea4f0304afe34e65828f3dd4d7f5bc2c = L.marker(
+                [41.922799059516294, -87.73375820319391],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_cbdb6925c6910f7a176e71344b7813e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ea4f0304afe34e65828f3dd4d7f5bc2c.setIcon(icon_cbdb6925c6910f7a176e71344b7813e9);
+        
+    
+        var popup_56db3c2aad078c4fe227b48cb4e8a687 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09c4b0c7c334ef099655b49096edefc0 = $(`<div id="html_09c4b0c7c334ef099655b49096edefc0" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 20<br>عدد الـ beat: 8<br>عدد الجرائم: 4203</div>`)[0];
+                popup_56db3c2aad078c4fe227b48cb4e8a687.setContent(html_09c4b0c7c334ef099655b49096edefc0);
+            
+        
+
+        marker_ea4f0304afe34e65828f3dd4d7f5bc2c.bindPopup(popup_56db3c2aad078c4fe227b48cb4e8a687)
+        ;
+
+        
+    
+    
+            var marker_b04411c2fd9a133ed15b5cc52f91b28b = L.marker(
+                [41.770413366985835, -87.72712373811822],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_cfc697aeed3cfebddfecc78eb214116c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b04411c2fd9a133ed15b5cc52f91b28b.setIcon(icon_cfc697aeed3cfebddfecc78eb214116c);
+        
+    
+        var popup_2136bf27c83d24d9651cf29b3fd9fb7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c98c452e033e9846da8330710b48f18a = $(`<div id="html_c98c452e033e9846da8330710b48f18a" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 65<br>عدد الـ beat: 4<br>عدد الجرائم: 5363</div>`)[0];
+                popup_2136bf27c83d24d9651cf29b3fd9fb7e.setContent(html_c98c452e033e9846da8330710b48f18a);
+            
+        
+
+        marker_b04411c2fd9a133ed15b5cc52f91b28b.bindPopup(popup_2136bf27c83d24d9651cf29b3fd9fb7e)
+        ;
+
+        
+    
+    
+            var marker_07e14e49def6f193ec68b1380f4a0381 = L.marker(
+                [41.854291907231485, -87.6679614433819],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_15c530c0a42aba25e1b67b676efc451a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_07e14e49def6f193ec68b1380f4a0381.setIcon(icon_15c530c0a42aba25e1b67b676efc451a);
+        
+    
+        var popup_a7b8c60964f0651a186c96bbced93170 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4e0c73cce876c1deb3c3c0691bb8e74 = $(`<div id="html_a4e0c73cce876c1deb3c3c0691bb8e74" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 31<br>عدد الـ beat: 13<br>عدد الجرائم: 6994</div>`)[0];
+                popup_a7b8c60964f0651a186c96bbced93170.setContent(html_a4e0c73cce876c1deb3c3c0691bb8e74);
+            
+        
+
+        marker_07e14e49def6f193ec68b1380f4a0381.bindPopup(popup_a7b8c60964f0651a186c96bbced93170)
+        ;
+
+        
+    
+    
+            var marker_089e89d0a0f798fea86b383a4aac1543 = L.marker(
+                [41.79457844168598, -87.6958358032541],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_5b5e6240d72b56a8b21cdb79873eddfc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_089e89d0a0f798fea86b383a4aac1543.setIcon(icon_5b5e6240d72b56a8b21cdb79873eddfc);
+        
+    
+        var popup_7eb98583a25a79a190eb6ba561670eb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d52ad5f43790d4e48b080db1bae4f6db = $(`<div id="html_d52ad5f43790d4e48b080db1bae4f6db" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 63<br>عدد الـ beat: 9<br>عدد الجرائم: 6490</div>`)[0];
+                popup_7eb98583a25a79a190eb6ba561670eb3.setContent(html_d52ad5f43790d4e48b080db1bae4f6db);
+            
+        
+
+        marker_089e89d0a0f798fea86b383a4aac1543.bindPopup(popup_7eb98583a25a79a190eb6ba561670eb3)
+        ;
+
+        
+    
+    
+            var marker_b4efe76bef3310e978084f289698a06e = L.marker(
+                [41.70379345973015, -87.62437286455562],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_1ae670d91e3a73293a84d14bae5b4aa0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b4efe76bef3310e978084f289698a06e.setIcon(icon_1ae670d91e3a73293a84d14bae5b4aa0);
+        
+    
+        var popup_67f9bb0d9c206390421950e837dd8cf6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7ae5bf687c7e5c1114b8e3994ed8ea2 = $(`<div id="html_d7ae5bf687c7e5c1114b8e3994ed8ea2" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 49<br>عدد الـ beat: 11<br>عدد الجرائم: 18910</div>`)[0];
+                popup_67f9bb0d9c206390421950e837dd8cf6.setContent(html_d7ae5bf687c7e5c1114b8e3994ed8ea2);
+            
+        
+
+        marker_b4efe76bef3310e978084f289698a06e.bindPopup(popup_67f9bb0d9c206390421950e837dd8cf6)
+        ;
+
+        
+    
+    
+            var marker_415386f20f3ae811de6d34f169112ac0 = L.marker(
+                [41.8092544513669, -87.59880983814095],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_fdbc3dba8cf43d473d8523ed525f7319 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_415386f20f3ae811de6d34f169112ac0.setIcon(icon_fdbc3dba8cf43d473d8523ed525f7319);
+        
+    
+        var popup_f2069872ce0c9075bd114b8cba903a17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fea6a4bda731d1321beab8efe49dffe = $(`<div id="html_2fea6a4bda731d1321beab8efe49dffe" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 39<br>عدد الـ beat: 6<br>عدد الجرائم: 4023</div>`)[0];
+                popup_f2069872ce0c9075bd114b8cba903a17.setContent(html_2fea6a4bda731d1321beab8efe49dffe);
+            
+        
+
+        marker_415386f20f3ae811de6d34f169112ac0.bindPopup(popup_f2069872ce0c9075bd114b8cba903a17)
+        ;
+
+        
+    
+    
+            var marker_bfe90b1f94e3028a2a20d942b3eacb3d = L.marker(
+                [41.70495466843667, -87.53548731275247],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_098c055d4a82be83609cd22aba9ff4c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bfe90b1f94e3028a2a20d942b3eacb3d.setIcon(icon_098c055d4a82be83609cd22aba9ff4c4);
+        
+    
+        var popup_e44187a4da365ae8d7a8608067381892 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30ce9338cc9bf5477b3cc3fbd7559fc6 = $(`<div id="html_30ce9338cc9bf5477b3cc3fbd7559fc6" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 52<br>عدد الـ beat: 2<br>عدد الجرائم: 3458</div>`)[0];
+                popup_e44187a4da365ae8d7a8608067381892.setContent(html_30ce9338cc9bf5477b3cc3fbd7559fc6);
+            
+        
+
+        marker_bfe90b1f94e3028a2a20d942b3eacb3d.bindPopup(popup_e44187a4da365ae8d7a8608067381892)
+        ;
+
+        
+    
+    
+            var marker_a9117592962d97e6e2c4cf40378d207e = L.marker(
+                [41.96623615849038, -87.65701688796675],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_67332ce217f7d4c8883bf1e5342e7bae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a9117592962d97e6e2c4cf40378d207e.setIcon(icon_67332ce217f7d4c8883bf1e5342e7bae);
+        
+    
+        var popup_7ebc1f4cf6227d8cb66e0ac77fa54a3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44ba675d72d05807dc74d39b5da63e37 = $(`<div id="html_44ba675d72d05807dc74d39b5da63e37" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 3<br>عدد الـ beat: 14<br>عدد الجرائم: 10288</div>`)[0];
+                popup_7ebc1f4cf6227d8cb66e0ac77fa54a3c.setContent(html_44ba675d72d05807dc74d39b5da63e37);
+            
+        
+
+        marker_a9117592962d97e6e2c4cf40378d207e.bindPopup(popup_7ebc1f4cf6227d8cb66e0ac77fa54a3c)
+        ;
+
+        
+    
+    
+            var marker_7cd7381374fae5403b086f3ce4d06e08 = L.marker(
+                [41.99945224142909, -87.69301982114423],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_196acc4d28dd8e03a5234fd6bbfc5c66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7cd7381374fae5403b086f3ce4d06e08.setIcon(icon_196acc4d28dd8e03a5234fd6bbfc5c66);
+        
+    
+        var popup_992cd6a879df5ded3d450543be04b8d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_112dde275f563408c8bc3d6148644157 = $(`<div id="html_112dde275f563408c8bc3d6148644157" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 2<br>عدد الـ beat: 5<br>عدد الجرائم: 9096</div>`)[0];
+                popup_992cd6a879df5ded3d450543be04b8d4.setContent(html_112dde275f563408c8bc3d6148644157);
+            
+        
+
+        marker_7cd7381374fae5403b086f3ce4d06e08.bindPopup(popup_992cd6a879df5ded3d450543be04b8d4)
+        ;
+
+        
+    
+    
+            var marker_70b32bf302a97be9fffe278dc9566fb6 = L.marker(
+                [41.8122448098492, -87.61739567759068],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_a3d436fe136895eea415a5d2787408aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_70b32bf302a97be9fffe278dc9566fb6.setIcon(icon_a3d436fe136895eea415a5d2787408aa);
+        
+    
+        var popup_73abd46db08b3821d7055a7e752f896f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a68cee4a28a95bf2420d4adfe45bafc8 = $(`<div id="html_a68cee4a28a95bf2420d4adfe45bafc8" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 38<br>عدد الـ beat: 8<br>عدد الجرائم: 9655</div>`)[0];
+                popup_73abd46db08b3821d7055a7e752f896f.setContent(html_a68cee4a28a95bf2420d4adfe45bafc8);
+            
+        
+
+        marker_70b32bf302a97be9fffe278dc9566fb6.bindPopup(popup_73abd46db08b3821d7055a7e752f896f)
+        ;
+
+        
+    
+    
+            var marker_862ab1fdf020191200dd3b4f9537ce06 = L.marker(
+                [41.74454779467046, -87.586740733736],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_305002dbcd231606d3317571387a037a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_862ab1fdf020191200dd3b4f9537ce06.setIcon(icon_305002dbcd231606d3317571387a037a);
+        
+    
+        var popup_ed3c01602bc35d6ccbff6ab12c5ec044 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8a9c6f69a08b3c569b41722165c6f1d = $(`<div id="html_b8a9c6f69a08b3c569b41722165c6f1d" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 45<br>عدد الـ beat: 3<br>عدد الجرائم: 3693</div>`)[0];
+                popup_ed3c01602bc35d6ccbff6ab12c5ec044.setContent(html_b8a9c6f69a08b3c569b41722165c6f1d);
+            
+        
+
+        marker_862ab1fdf020191200dd3b4f9537ce06.bindPopup(popup_ed3c01602bc35d6ccbff6ab12c5ec044)
+        ;
+
+        
+    
+    
+            var marker_7c94b921b7999df863541af330aaefa5 = L.marker(
+                [41.798577790351295, -87.75843652569421],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_83361be9b3cfcafba7341e1b61731ae3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7c94b921b7999df863541af330aaefa5.setIcon(icon_83361be9b3cfcafba7341e1b61731ae3);
+        
+    
+        var popup_ba2f17df096c4c604236947cb588d1f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efdb27da189ce156e04b00428a09bfa1 = $(`<div id="html_efdb27da189ce156e04b00428a09bfa1" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 56<br>عدد الـ beat: 6<br>عدد الجرائم: 5844</div>`)[0];
+                popup_ba2f17df096c4c604236947cb588d1f8.setContent(html_efdb27da189ce156e04b00428a09bfa1);
+            
+        
+
+        marker_7c94b921b7999df863541af330aaefa5.bindPopup(popup_ba2f17df096c4c604236947cb588d1f8)
+        ;
+
+        
+    
+    
+            var marker_c681d3fc0407d7052e829a71ac04fa03 = L.marker(
+                [41.656792246887406, -87.54512214327514],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_d2edde9547c7c356979e617a7906e30e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c681d3fc0407d7052e829a71ac04fa03.setIcon(icon_d2edde9547c7c356979e617a7906e30e);
+        
+    
+        var popup_d86556837a73f01af076fdda187bcc3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6865a20c40ac8de53937689649336b76 = $(`<div id="html_6865a20c40ac8de53937689649336b76" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 55<br>عدد الـ beat: 2<br>عدد الجرائم: 1581</div>`)[0];
+                popup_d86556837a73f01af076fdda187bcc3b.setContent(html_6865a20c40ac8de53937689649336b76);
+            
+        
+
+        marker_c681d3fc0407d7052e829a71ac04fa03.bindPopup(popup_d86556837a73f01af076fdda187bcc3b)
+        ;
+
+        
+    
+    
+            var marker_b96758eadf51a10990d35250e27733f3 = L.marker(
+                [41.796761741593045, -87.59326980327782],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_a66f792444e9715205eae0db89f83bf7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b96758eadf51a10990d35250e27733f3.setIcon(icon_a66f792444e9715205eae0db89f83bf7);
+        
+    
+        var popup_9a63b56a80f6d5cd6ab00660c30d5507 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bfe14393613de0e3523dadf148b6aed = $(`<div id="html_9bfe14393613de0e3523dadf148b6aed" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 41<br>عدد الـ beat: 8<br>عدد الجرائم: 4600</div>`)[0];
+                popup_9a63b56a80f6d5cd6ab00660c30d5507.setContent(html_9bfe14393613de0e3523dadf148b6aed);
+            
+        
+
+        marker_b96758eadf51a10990d35250e27733f3.bindPopup(popup_9a63b56a80f6d5cd6ab00660c30d5507)
+        ;
+
+        
+    
+    
+            var marker_0fc4d4f712c7031bf36cbfa4976a8cf3 = L.marker(
+                [41.65601182668904, -87.60595905351576],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_dc77f27a286c2467fc0d38c7e3902e45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0fc4d4f712c7031bf36cbfa4976a8cf3.setIcon(icon_dc77f27a286c2467fc0d38c7e3902e45);
+        
+    
+        var popup_f1308029d72e0e4fcf9c14d6110f2f1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52f04abfa36b63fa00adadb3781d2d77 = $(`<div id="html_52f04abfa36b63fa00adadb3781d2d77" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 54<br>عدد الـ beat: 2<br>عدد الجرائم: 3174</div>`)[0];
+                popup_f1308029d72e0e4fcf9c14d6110f2f1f.setContent(html_52f04abfa36b63fa00adadb3781d2d77);
+            
+        
+
+        marker_0fc4d4f712c7031bf36cbfa4976a8cf3.bindPopup(popup_f1308029d72e0e4fcf9c14d6110f2f1f)
+        ;
+
+        
+    
+    
+            var marker_08cf0a5a950bd6ed8eedcc31cc45c056 = L.marker(
+                [41.95297949594032, -87.72109489239355],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_7946118822a03679589532fa75936c08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_08cf0a5a950bd6ed8eedcc31cc45c056.setIcon(icon_7946118822a03679589532fa75936c08);
+        
+    
+        var popup_e153cc2757be23d01fb428a878eb3c6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b870ab89bb4768bd3e4c21456f5c91d = $(`<div id="html_6b870ab89bb4768bd3e4c21456f5c91d" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 16<br>عدد الـ beat: 6<br>عدد الجرائم: 7976</div>`)[0];
+                popup_e153cc2757be23d01fb428a878eb3c6b.setContent(html_6b870ab89bb4768bd3e4c21456f5c91d);
+            
+        
+
+        marker_08cf0a5a950bd6ed8eedcc31cc45c056.bindPopup(popup_e153cc2757be23d01fb428a878eb3c6b)
+        ;
+
+        
+    
+    
+            var marker_1fb1188e93cf6dd89908d6c70bdec000 = L.marker(
+                [41.704695348669674, -87.6022143415982],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_fac8b167caf86b17cdfc718ccf2d4f49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1fb1188e93cf6dd89908d6c70bdec000.setIcon(icon_fac8b167caf86b17cdfc718ccf2d4f49);
+        
+    
+        var popup_18bdc45887c203c2473ead5b96c6dd00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a214fa5be06f3a152e10cc9e4a8028a = $(`<div id="html_1a214fa5be06f3a152e10cc9e4a8028a" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 50<br>عدد الـ beat: 4<br>عدد الجرائم: 2882</div>`)[0];
+                popup_18bdc45887c203c2473ead5b96c6dd00.setContent(html_1a214fa5be06f3a152e10cc9e4a8028a);
+            
+        
+
+        marker_1fb1188e93cf6dd89908d6c70bdec000.bindPopup(popup_18bdc45887c203c2473ead5b96c6dd00)
+        ;
+
+        
+    
+    
+            var marker_ffdf68fc86b533f0a1a6311e37c79fb8 = L.marker(
+                [41.98416888492199, -87.71653503110788],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_ee73d64082df252feadb56a3850b7299 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ffdf68fc86b533f0a1a6311e37c79fb8.setIcon(icon_ee73d64082df252feadb56a3850b7299);
+        
+    
+        var popup_c0247c24dbb8904f3007aed46948ec14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1c11a8d9b1b31459399b1aa325a446e = $(`<div id="html_c1c11a8d9b1b31459399b1aa325a446e" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 13<br>عدد الـ beat: 3<br>عدد الجرائم: 2410</div>`)[0];
+                popup_c0247c24dbb8904f3007aed46948ec14.setContent(html_c1c11a8d9b1b31459399b1aa325a446e);
+            
+        
+
+        marker_ffdf68fc86b533f0a1a6311e37c79fb8.bindPopup(popup_c0247c24dbb8904f3007aed46948ec14)
+        ;
+
+        
+    
+    
+            var marker_a1419fbb82890f3b94a0b009959c0253 = L.marker(
+                [41.967115144576816, -87.71892422950444],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_48b0a76ce5d6df4e9ebf0259134844ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a1419fbb82890f3b94a0b009959c0253.setIcon(icon_48b0a76ce5d6df4e9ebf0259134844ab);
+        
+    
+        var popup_d703d15c094bce78b054bcc102f8054c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db2f15cab12af387a7ff8c7739d223ab = $(`<div id="html_db2f15cab12af387a7ff8c7739d223ab" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 14<br>عدد الـ beat: 5<br>عدد الجرائم: 6411</div>`)[0];
+                popup_d703d15c094bce78b054bcc102f8054c.setContent(html_db2f15cab12af387a7ff8c7739d223ab);
+            
+        
+
+        marker_a1419fbb82890f3b94a0b009959c0253.bindPopup(popup_d703d15c094bce78b054bcc102f8054c)
+        ;
+
+        
+    
+    
+            var marker_770abaf569dea36a7b0ddf85b715302d = L.marker(
+                [41.94532208387712, -87.80271684398912],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_39ea8e2d9d55cd2cb3f1c3a0c72ac72f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_770abaf569dea36a7b0ddf85b715302d.setIcon(icon_39ea8e2d9d55cd2cb3f1c3a0c72ac72f);
+        
+    
+        var popup_c825c3b7a8e450c1d8e8311351eb9f88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54ac85d08b939bdb965e08a4a92ef6f2 = $(`<div id="html_54ac85d08b939bdb965e08a4a92ef6f2" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 17<br>عدد الـ beat: 5<br>عدد الجرائم: 4411</div>`)[0];
+                popup_c825c3b7a8e450c1d8e8311351eb9f88.setContent(html_54ac85d08b939bdb965e08a4a92ef6f2);
+            
+        
+
+        marker_770abaf569dea36a7b0ddf85b715302d.bindPopup(popup_c825c3b7a8e450c1d8e8311351eb9f88)
+        ;
+
+        
+    
+    
+            var marker_7ac2968e1a63a37312adb1ad38c59cb0 = L.marker(
+                [41.68995691536388, -87.6624947514493],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_9869754713fa980bdf97ed087aca2a30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ac2968e1a63a37312adb1ad38c59cb0.setIcon(icon_9869754713fa980bdf97ed087aca2a30);
+        
+    
+        var popup_0b6885b1da0243ca5919552f564ac084 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e0ea8143f8c89de184c73343d7649be = $(`<div id="html_1e0ea8143f8c89de184c73343d7649be" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 75<br>عدد الـ beat: 4<br>عدد الجرائم: 5642</div>`)[0];
+                popup_0b6885b1da0243ca5919552f564ac084.setContent(html_1e0ea8143f8c89de184c73343d7649be);
+            
+        
+
+        marker_7ac2968e1a63a37312adb1ad38c59cb0.bindPopup(popup_0b6885b1da0243ca5919552f564ac084)
+        ;
+
+        
+    
+    
+            var marker_23535e684f6b4dd895bf20b80c53010d = L.marker(
+                [41.830355898932574, -87.67389182258394],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_8b32a57bbc75a94726ffc779d43f3021 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_23535e684f6b4dd895bf20b80c53010d.setIcon(icon_8b32a57bbc75a94726ffc779d43f3021);
+        
+    
+        var popup_c4e47a310bd3cf70c7428cc79af556e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6ca2cf818aa1c48bda29c639c4d7577 = $(`<div id="html_f6ca2cf818aa1c48bda29c639c4d7577" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 59<br>عدد الـ beat: 4<br>عدد الجرائم: 2877</div>`)[0];
+                popup_c4e47a310bd3cf70c7428cc79af556e2.setContent(html_f6ca2cf818aa1c48bda29c639c4d7577);
+            
+        
+
+        marker_23535e684f6b4dd895bf20b80c53010d.bindPopup(popup_c4e47a310bd3cf70c7428cc79af556e2)
+        ;
+
+        
+    
+    
+            var marker_dad2ad233e442975671dfb8d7f106126 = L.marker(
+                [41.929037500825814, -87.79864514503382],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_5f62120642d077d9a7188d380a091ca2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dad2ad233e442975671dfb8d7f106126.setIcon(icon_5f62120642d077d9a7188d380a091ca2);
+        
+    
+        var popup_6bbd7064b875b6d1381b756ab782671f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_848b482e31c10cbb9db3be13a237ffba = $(`<div id="html_848b482e31c10cbb9db3be13a237ffba" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 18<br>عدد الـ beat: 2<br>عدد الجرائم: 1596</div>`)[0];
+                popup_6bbd7064b875b6d1381b756ab782671f.setContent(html_848b482e31c10cbb9db3be13a237ffba);
+            
+        
+
+        marker_dad2ad233e442975671dfb8d7f106126.bindPopup(popup_6bbd7064b875b6d1381b756ab782671f)
+        ;
+
+        
+    
+    
+            var marker_6f40d255164ffa1ed9c883184b8471e4 = L.marker(
+                [41.73040012581072, -87.57534503624863],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_02f93729fe0a7c8c105711763da8390f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6f40d255164ffa1ed9c883184b8471e4.setIcon(icon_02f93729fe0a7c8c105711763da8390f);
+        
+    
+        var popup_f75f45359c7e52866d97279f106d69a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8fd9644c79e3f45f078fd0c1b758375 = $(`<div id="html_b8fd9644c79e3f45f078fd0c1b758375" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 48<br>عدد الـ beat: 4<br>عدد الجرائم: 3825</div>`)[0];
+                popup_f75f45359c7e52866d97279f106d69a0.setContent(html_b8fd9644c79e3f45f078fd0c1b758375);
+            
+        
+
+        marker_6f40d255164ffa1ed9c883184b8471e4.bindPopup(popup_f75f45359c7e52866d97279f106d69a0)
+        ;
+
+        
+    
+    
+            var marker_191fcf2787acafe0031d3c18f062753d = L.marker(
+                [41.712132350508476, -87.56703905442134],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_e546a14a5a503889409bd8edf8437b86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_191fcf2787acafe0031d3c18f062753d.setIcon(icon_e546a14a5a503889409bd8edf8437b86);
+        
+    
+        var popup_372ecb7028b43766935b1ccc623fe24d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc1dd24d2cb394e52d45e7b4a4912342 = $(`<div id="html_bc1dd24d2cb394e52d45e7b4a4912342" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 51<br>عدد الـ beat: 6<br>عدد الجرائم: 4602</div>`)[0];
+                popup_372ecb7028b43766935b1ccc623fe24d.setContent(html_bc1dd24d2cb394e52d45e7b4a4912342);
+            
+        
+
+        marker_191fcf2787acafe0031d3c18f062753d.bindPopup(popup_372ecb7028b43766935b1ccc623fe24d)
+        ;
+
+        
+    
+    
+            var marker_fc50de0ddaf8ce905439cda472711c5f = L.marker(
+                [41.71871840695383, -87.65010984890105],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_27f0c09e479337c0b735f2bbe0733262 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fc50de0ddaf8ce905439cda472711c5f.setIcon(icon_27f0c09e479337c0b735f2bbe0733262);
+        
+    
+        var popup_889ffb0d4140578a1616f22d6d42f291 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cdaba341830055dfc1a2b9a99ebec2c = $(`<div id="html_2cdaba341830055dfc1a2b9a99ebec2c" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 73<br>عدد الـ beat: 6<br>عدد الجرائم: 8428</div>`)[0];
+                popup_889ffb0d4140578a1616f22d6d42f291.setContent(html_2cdaba341830055dfc1a2b9a99ebec2c);
+            
+        
+
+        marker_fc50de0ddaf8ce905439cda472711c5f.bindPopup(popup_889ffb0d4140578a1616f22d6d42f291)
+        ;
+
+        
+    
+    
+            var marker_466f4c288548171756ce84014c50a662 = L.marker(
+                [41.82464115842282, -87.60601117479194],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_1cb5ca7365d995276bea9ec8ed77403e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_466f4c288548171756ce84014c50a662.setIcon(icon_1cb5ca7365d995276bea9ec8ed77403e);
+        
+    
+        var popup_870b4e3021a61ddda57f654f1f040011 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9de11bb4776a16878d97dc38cc2e35e = $(`<div id="html_c9de11bb4776a16878d97dc38cc2e35e" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 36<br>عدد الـ beat: 5<br>عدد الجرائم: 1639</div>`)[0];
+                popup_870b4e3021a61ddda57f654f1f040011.setContent(html_c9de11bb4776a16878d97dc38cc2e35e);
+            
+        
+
+        marker_466f4c288548171756ce84014c50a662.bindPopup(popup_870b4e3021a61ddda57f654f1f040011)
+        ;
+
+        
+    
+    
+            var marker_182c1758f67a2977359a38d4a12b1bd5 = L.marker(
+                [42.00591814484658, -87.81314427669456],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_9fa3f90922f76606faaa4be391d5ea58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_182c1758f67a2977359a38d4a12b1bd5.setIcon(icon_9fa3f90922f76606faaa4be391d5ea58);
+        
+    
+        var popup_7c3097f9ef74be58b033c7c756eff8c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfbff476b2774cd2f0d887045f48ced7 = $(`<div id="html_cfbff476b2774cd2f0d887045f48ced7" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 9<br>عدد الـ beat: 2<br>عدد الجرائم: 717</div>`)[0];
+                popup_7c3097f9ef74be58b033c7c756eff8c9.setContent(html_cfbff476b2774cd2f0d887045f48ced7);
+            
+        
+
+        marker_182c1758f67a2977359a38d4a12b1bd5.bindPopup(popup_7c3097f9ef74be58b033c7c756eff8c9)
+        ;
+
+        
+    
+    
+            var marker_1f42fdde94cb38199d186b0b2d8a1ebf = L.marker(
+                [41.80641641228584, -87.63237402169604],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_d044d115002062b5aff9d242cd845f0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1f42fdde94cb38199d186b0b2d8a1ebf.setIcon(icon_d044d115002062b5aff9d242cd845f0f);
+        
+    
+        var popup_6afaa6b7dd6d1a08105132e57a5e3c09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fd999f19800e377facdd56951f00249 = $(`<div id="html_8fd999f19800e377facdd56951f00249" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 37<br>عدد الـ beat: 11<br>عدد الجرائم: 2372</div>`)[0];
+                popup_6afaa6b7dd6d1a08105132e57a5e3c09.setContent(html_8fd999f19800e377facdd56951f00249);
+            
+        
+
+        marker_1f42fdde94cb38199d186b0b2d8a1ebf.bindPopup(popup_6afaa6b7dd6d1a08105132e57a5e3c09)
+        ;
+
+        
+    
+    
+            var marker_420355c44610e980a83f23ad521c0c75 = L.marker(
+                [41.80634298928954, -87.72655848946617],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_97218610c01185d01d97b1c7d2952a4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_420355c44610e980a83f23ad521c0c75.setIcon(icon_97218610c01185d01d97b1c7d2952a4a);
+        
+    
+        var popup_6ecb1d49d1b4c38b25aba81bcbab57f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49488a0efabf850626d0cbab1d2bbf8d = $(`<div id="html_49488a0efabf850626d0cbab1d2bbf8d" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 57<br>عدد الـ beat: 2<br>عدد الجرائم: 2542</div>`)[0];
+                popup_6ecb1d49d1b4c38b25aba81bcbab57f0.setContent(html_49488a0efabf850626d0cbab1d2bbf8d);
+            
+        
+
+        marker_420355c44610e980a83f23ad521c0c75.bindPopup(popup_6ecb1d49d1b4c38b25aba81bcbab57f0)
+        ;
+
+        
+    
+    
+            var marker_a75931df32256bb97bb9cb9ce830f5aa = L.marker(
+                [41.84139642905426, -87.63324014748606],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_ae161e29a106980e7c836156c8310d74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a75931df32256bb97bb9cb9ce830f5aa.setIcon(icon_ae161e29a106980e7c836156c8310d74);
+        
+    
+        var popup_14ae9aded28bd957124041f61cd58ac2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cf9a360b203b202c193e19ac272b2f1 = $(`<div id="html_7cf9a360b203b202c193e19ac272b2f1" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 34<br>عدد الـ beat: 11<br>عدد الجرائم: 2654</div>`)[0];
+                popup_14ae9aded28bd957124041f61cd58ac2.setContent(html_7cf9a360b203b202c193e19ac272b2f1);
+            
+        
+
+        marker_a75931df32256bb97bb9cb9ce830f5aa.bindPopup(popup_14ae9aded28bd957124041f61cd58ac2)
+        ;
+
+        
+    
+    
+            var marker_b64a6eaf1652fac5de8ed94db5ea322c = L.marker(
+                [41.712432234366474, -87.67237871048671],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_b591d76fe5a30b0c4f20069b6cbf46b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b64a6eaf1652fac5de8ed94db5ea322c.setIcon(icon_b591d76fe5a30b0c4f20069b6cbf46b8);
+        
+    
+        var popup_69e5be55e88e8c55b1bf5cb1cd840eb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddd4d0254df660f86d964c5e4dbae815 = $(`<div id="html_ddd4d0254df660f86d964c5e4dbae815" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 72<br>عدد الـ beat: 4<br>عدد الجرائم: 2595</div>`)[0];
+                popup_69e5be55e88e8c55b1bf5cb1cd840eb7.setContent(html_ddd4d0254df660f86d964c5e4dbae815);
+            
+        
+
+        marker_b64a6eaf1652fac5de8ed94db5ea322c.bindPopup(popup_69e5be55e88e8c55b1bf5cb1cd840eb7)
+        ;
+
+        
+    
+    
+            var marker_a73a5e20e7a1293ba92c2c8a3280287b = L.marker(
+                [41.69498265347959, -87.70876218739434],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_aaca29553affcae2d4b24ca822a1c600 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a73a5e20e7a1293ba92c2c8a3280287b.setIcon(icon_aaca29553affcae2d4b24ca822a1c600);
+        
+    
+        var popup_33f8e64f66890981ceeeb398ccb9de25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_406add413c171e3daf9a73fdfa648af8 = $(`<div id="html_406add413c171e3daf9a73fdfa648af8" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 74<br>عدد الـ beat: 1<br>عدد الجرائم: 1666</div>`)[0];
+                popup_33f8e64f66890981ceeeb398ccb9de25.setContent(html_406add413c171e3daf9a73fdfa648af8);
+            
+        
+
+        marker_a73a5e20e7a1293ba92c2c8a3280287b.bindPopup(popup_33f8e64f66890981ceeeb398ccb9de25)
+        ;
+
+        
+    
+    
+            var marker_e7db95cabc0261202f074ce09050a412 = L.marker(
+                [41.77828329282222, -87.76802029286449],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_dc0b71d43d30aa111b141e5cf195f293 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e7db95cabc0261202f074ce09050a412.setIcon(icon_dc0b71d43d30aa111b141e5cf195f293);
+        
+    
+        var popup_9772fb0d96abdcf7a3be11d46b8e6005 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43ad62d5692280110ceded01e57a7e9d = $(`<div id="html_43ad62d5692280110ceded01e57a7e9d" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 64<br>عدد الـ beat: 4<br>عدد الجرائم: 2745</div>`)[0];
+                popup_9772fb0d96abdcf7a3be11d46b8e6005.setContent(html_43ad62d5692280110ceded01e57a7e9d);
+            
+        
+
+        marker_e7db95cabc0261202f074ce09050a412.bindPopup(popup_9772fb0d96abdcf7a3be11d46b8e6005)
+        ;
+
+        
+    
+    
+            var marker_8907a8a797984f7292505749bd276eba = L.marker(
+                [41.72786892380318, -87.59725444926342],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_88cb6ff6dc4a844df706cdebe7480a30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8907a8a797984f7292505749bd276eba.setIcon(icon_88cb6ff6dc4a844df706cdebe7480a30);
+        
+    
+        var popup_28286ee84c56627264414c8ee3b876f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93ce41edb58b92e3332df733f5904d58 = $(`<div id="html_93ce41edb58b92e3332df733f5904d58" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 47<br>عدد الـ beat: 3<br>عدد الجرائم: 1006</div>`)[0];
+                popup_28286ee84c56627264414c8ee3b876f6.setContent(html_93ce41edb58b92e3332df733f5904d58);
+            
+        
+
+        marker_8907a8a797984f7292505749bd276eba.bindPopup(popup_28286ee84c56627264414c8ee3b876f6)
+        ;
+
+        
+    
+    
+            var marker_45b4e92650cc290df4a38bdb8a43751b = L.marker(
+                [41.896197753833334, -87.80971365750001],
+                {}
+            ).addTo(marker_cluster_437cde81cb01d39dd83c475cd1997414);
+        
+    
+            var icon_b7e2a8df71735db9ca0095a9fd153f8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_45b4e92650cc290df4a38bdb8a43751b.setIcon(icon_b7e2a8df71735db9ca0095a9fd153f8f);
+        
+    
+        var popup_87c428f403c1f085f350c6b5e543902f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bafbb2266e457c87cce9e49bdf3a66f0 = $(`<div id="html_bafbb2266e457c87cce9e49bdf3a66f0" style="width: 100.0%; height: 100.0%;">منطقة المجتمع: 0<br>عدد الـ beat: 4<br>عدد الجرائم: 6</div>`)[0];
+                popup_87c428f403c1f085f350c6b5e543902f.setContent(html_bafbb2266e457c87cce9e49bdf3a66f0);
+            
+        
+
+        marker_45b4e92650cc290df4a38bdb8a43751b.bindPopup(popup_87c428f403c1f085f350c6b5e543902f)
+        ;
+
+        
+    
+</script>
+</html>
